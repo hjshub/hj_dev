@@ -1,0 +1,15 @@
+@import 'variable';
+@import 'mixin';
+@import 'font';
+@import 'base';
+@import 'icon';
+@import 'form';
+//@import 'nice-select';
+@import 'header';
+@import 'footer';
+@import 'animate';
+@import 'layout';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,102 @@
+/**
+ * ==============================+
+ * font
+ * ==============================+
+ */
+
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+/*Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Noto Sans CJK KR*/
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 100;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Thin.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Thin.woff') format('woff'), url('../font/NotoSans_CJK_KR-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 300;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Light.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Light.woff') format('woff'), url('../font/NotoSans_CJK_KR-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-DemiLight.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-DemiLight.woff') format('woff'),
+    url('../font/NotoSans_CJK_KR-DemiLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 500;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Regular.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Regular.woff') format('woff'), url('../font/NotoSans_CJK_KR-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 600;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Medium.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Medium.woff') format('woff'), url('../font/NotoSans_CJK_KR-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Bold.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Bold.woff') format('woff'), url('../font/NotoSans_CJK_KR-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 900;
+  src: local('※'), url('../font/woff2/NotoSans_CJK_KR-Black.woff2') format('woff2'),
+    url('../font/woff/NotoSans_CJK_KR-Black.woff') format('woff'), url('../font/NotoSans_CJK_KR-Black.otf') format('opentype');
+}
+
+// s core dream
+@font-face {
+  font-family: 's-core-dream-regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('※'), url('../font/woff2/s-core-dream-regular.woff2') format('woff2'),
+    url('../font/woff/s-core-dream-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 's-core-dream-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('※'), url('../font/woff2/s-core-dream-bold.woff2') format('woff2'),
+    url('../font/woff/s-core-dream-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 's-core-dream-extrabold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('※'), url('../font/woff2/s-core-dream-extrabold.woff2') format('woff2'),
+    url('../font/woff/s-core-dream-extrabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 's-core-dream-heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('※'), url('../font/woff2/s-core-dream-heavy.woff2') format('woff2'),
+    url('../font/woff/s-core-dream-heavy.woff') format('woff');
+}

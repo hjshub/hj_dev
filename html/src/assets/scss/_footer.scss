@@ -1,0 +1,20 @@
+/**
+ * ==============================+
+ * footer
+ * ==============================+
+ */
+footer {
+  padding: 45px 0;
+  background-color: $black;
+  color: $white;
+  position: relative;
+  z-index: 10;
+
+  @include _bp(821px) {
+    padding: 30px 0;
+  }
+
+  > div {
+    font-size: 1.8rem;
+  }
+}

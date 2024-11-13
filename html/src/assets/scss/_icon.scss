@@ -1,0 +1,37 @@
+  @mixin icon { display: inline-block; background-image: url($sprite-url); background-repeat: no-repeat; background-size:37px
+  9px; } @mixin icon-2x { display: inline-block; background-image: url($sprite-url--retina); background-repeat:
+  no-repeat; background-size: -webkit-calc(37px/ 2) -webkit-calc(9px
+  / 2); background-size: -moz-calc(37px
+  / 2) -moz-calc(9px
+  / 2); background-size: calc(37px
+  / 2) calc(9px
+  / 2); }
+
+  @mixin icon-arrow-down{ width:16px; height:9px; background-position:0px
+  0px; } @mixin icon-arrow-down-2x{ width:-webkit-calc(16px
+  / 2); width:-moz-calc(16px
+  / 2); width:calc(16px
+  / 2); height:-webkit-calc(9px
+  / 2); height:-moz-calc(9px
+  / 2); height:calc(9px
+  / 2); background-position: -webkit-calc(0px
+  / 2) -webkit-calc(0px
+  / 2); background-position: -moz-calc(0px
+  / 2) -moz-calc(0px
+  / 2); background-position: calc(0px
+  / 2) calc(0px
+  / 2); }
+  @mixin icon-arrow-up{ width:16px; height:9px; background-position:-21px
+  0px; } @mixin icon-arrow-up-2x{ width:-webkit-calc(16px
+  / 2); width:-moz-calc(16px
+  / 2); width:calc(16px
+  / 2); height:-webkit-calc(9px
+  / 2); height:-moz-calc(9px
+  / 2); height:calc(9px
+  / 2); background-position: -webkit-calc(-21px
+  / 2) -webkit-calc(0px
+  / 2); background-position: -moz-calc(-21px
+  / 2) -moz-calc(0px
+  / 2); background-position: calc(-21px
+  / 2) calc(0px
+  / 2); }
